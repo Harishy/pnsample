@@ -1,0 +1,67 @@
+[2020-02-13T13:13:30.484Z] [INFO] Start processing job request...
+[2020-02-13T13:13:30.502Z] [INFO] Start generating application...
+[2020-02-13T13:13:30.503Z] [INFO] Template version: 5.4.0
+[2020-02-13T13:13:30.503Z] [INFO] Build features: cordovaNoFetch - true
+[2020-02-13T13:13:30.504Z] [INFO] Build features: buildTimeout - 20
+[2020-02-13T13:13:30.504Z] [INFO] Creating a temporary folder for the application...
+[2020-02-13T13:13:30.505Z] [INFO] Creating the required directory structure for your cordova application...
+[2020-02-13T13:13:37.038Z] [INFO] Getting application resources...
+[2020-02-13T13:13:37.050Z] [INFO] Processing application resources...
+[2020-02-13T13:13:37.298Z] [INFO] Generating application assets...
+[2020-02-13T13:13:39.440Z] [INFO] Applying configurations in the config.xml file...
+[2020-02-13T13:13:39.481Z] [INFO] Applying advanced configurations in the config.xml file...
+[2020-02-13T13:13:39.482Z] [INFO] Applying custom application icons...
+[2020-02-13T13:13:39.482Z] [INFO] Applying custom application splashscreens...
+[2020-02-13T13:13:39.483Z] [INFO] Applying application preferences...
+[2020-02-13T13:13:39.483Z] [INFO] Applying application accessList...
+[2020-02-13T13:13:39.484Z] [INFO] Adding target platform...
+[2020-02-13T13:14:40.864Z] [INFO] Applying plugins in the config.xml file...
+[2020-02-13T13:14:40.866Z] [INFO] Plugin Id: https://github.com/TruewindIT/cordova-plugin-firebase#1.8
+[2020-02-13T13:14:40.866Z] [INFO] Plugin Action: add
+[2020-02-13T13:15:19.208Z] [ERROR] 
+You have been opted out of telemetry. To change this, run: cordova telemetry on.
+No scripts found for hook "before_plugin_add".
+Calling plugman.fetch on plugin "https://github.com/TruewindIT/cordova-plugin-firebase#1.8"
+Fetching plugin "https://github.com/TruewindIT/cordova-plugin-firebase" via git clone
+Running command: git clone https://github.com/TruewindIT/cordova-plugin-firebase /var/folders/66/b4_wtfs13j1920dcvv507llh0000gr/T/git/1581599681986
+Command finished with error code 0: git clone,https://github.com/TruewindIT/cordova-plugin-firebase,/var/folders/66/b4_wtfs13j1920dcvv507llh0000gr/T/git/1581599681986
+Running command: git checkout 1.8
+Command finished with error code 0: git checkout,1.8
+Repository "https://github.com/TruewindIT/cordova-plugin-firebase" checked out to git ref "1.8".
+/tmp/build/source/plugins/cordova-plugin-firebase"...
+Plugin "cordova-plugin-firebase" fetched.
+Calling plugman.install on plugin "/Users/mabs02/NativeBuilder/builds/f52cf8cf-cc7e-466d-a1aa-df31458524b4/source/plugins/cordova-plugin-firebase" for platform "ios
+Installing "cordova-plugin-firebase" for ios
+Running command: /Users/mabs02/NativeBuilder/builds/f52cf8cf-cc7e-466d-a1aa-df31458524b4/source/platforms/ios/cordova/version 
+Command finished with error code 0: /Users/mabs02/NativeBuilder/builds/f52cf8cf-cc7e-466d-a1aa-df31458524b4/source/platforms/ios/cordova/version 
+Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-firebase on ios platform only.
+Executing script found in plugin cordova-plugin-firebase for hook "before_plugin_install": plugins/cordova-plugin-firebase/scripts/configurations/installDependencies.js
+7.1.0
+Resolving module name for child_process => child_process
+Resolving module name for q => q
+Executing script found in plugin cordova-plugin-firebase for hook "before_plugin_install": plugins/cordova-plugin-firebase/scripts/configurations/unzipAndCopyConfigurations.js
+7.1.0
+7.1.0
+Resolving module name for q => q
+7.1.0
+Resolving module name for elementtree => elementtree
+7.1.0
+Using deprecated way to look for configuration files' folder
+No file found
+Failed to install 'cordova-plugin-firebase': TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:1233:7)
+    at module.exports (/Users/mabs02/NativeBuilder/builds/f52cf8cf-cc7e-466d-a1aa-df31458524b4/source/plugins/cordova-plugin-firebase/scripts/configurations/unzipAndCopyConfigurations.js:53:29)
+    at runScriptViaModuleLoader (/Users/mabs02/.nodenv/versions/8.14.1/lib/node_modules/cordova/node_modules/cordova-lib/src/hooks/HooksRunner.js:188:18)
+    at runScript (/Users/mabs02/.nodenv/versions/8.14.1/lib/node_modules/cordova/node_modules/cordova-lib/src/hooks/HooksRunner.js:164:16)
+    at /Users/mabs02/.nodenv/versions/8.14.1/lib/node_modules/cordova/node_modules/cordova-lib/src/hooks/HooksRunner.js:132:20
+    at _fulfilled (/Users/mabs02/.nodenv/versions/8.14.1/lib/node_modules/cordova/node_modules/q/q.js:787:54)
+    at self.promiseDispatch.done (/Users/mabs02/.nodenv/versions/8.14.1/lib/node_modules/cordova/node_modules/q/q.js:816:30)
+    at Promise.promise.promiseDispatch (/Users/mabs02/.nodenv/versions/8.14.1/lib/node_modules/cordova/node_modules/q/q.js:749:13)
+    at /Users/mabs02/.nodenv/versions/8.14.1/lib/node_modules/cordova/node_modules/q/q.js:557:44
+Error: Path must be a string. Received undefined
+
+[2020-02-13T13:15:19.208Z] [ERROR] Build failed with the following error: Error installing Cordova plugin: cordova-plugin-firebase.
+[2020-02-13T13:15:19.209Z] [INFO] Zipping application source...
+[2020-02-13T13:15:26.223Z] [INFO] Application was not successfully generated!
+[2020-02-13T13:15:26.228Z] [INFO] Execution time: 116403ms
